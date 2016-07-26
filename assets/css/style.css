@@ -1,0 +1,53 @@
+body {
+	background-image: url(../images/stadium.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 20px;
+}
+
+#title {
+	font-family: 'Metal Mania', cursive;
+	font-style: bold;
+	font-size: 48px;
+	line-height: 64px;
+	color: red;
+	text-align: center;
+}
+
+#backstage, #dressingRoom, .fighter, .enemy {
+	width: 100%
+}
+
+.heading {
+	font-family: 'Metal Mania', cursive;
+	font-size: 28px;
+	line-height: 42px;
+	color: yellow;
+}
+
+.bandContainer {
+	border: 2px solid white;
+}
+.bandContainer, .enemyContainer, #fighter, #enemy {
+	height: 140px;
+	width: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+}
+.band {
+	height: 75%;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 2;
+}
+
+.bandName, .hp {
+	z-index: 1;
+	font-size: 14px;
+	font-family: 'Metal Mania', cursive;
+	color: red;
+	text-align: center;
+}

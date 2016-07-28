@@ -4,7 +4,6 @@
 	<title>Battle of the Hair Bands</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
 	<link href='https://fonts.googleapis.com/css?family=Metal+Mania' rel='stylesheet' type='text/css'>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 </head>
@@ -14,8 +13,25 @@
 	</header>
 	<div id="hero">
 	<h3 class="heading">YOUR BAND</h3>
-		<div id="fighter">
+		<div id="player">
 		</div>
+	</div>
+	<div id="button">
+		<button id="battleButton">BATTLE</button>
+		<h5 id="buttonInstruct">Click Button to Battle</h5>
+	</div>
+	<div id="replay">
+		<button id="restart">RESTART</button>
+		<h5 id="restartInstruct">YOU LOST THE BATTLE. CLICK TO TRY AGAIN.</h5>
+	</div>
+	<div id="next">
+		<h3 class="heading">YOU WON THIS BATTLE! CHOOSE YOUR NEXT OPPONENT.</h5>
+		<div class="nextEnemy" id="nextEnemyA">
+		</div>
+		<div class="nextEnemy" id="nextEnemyB">
+		</div>
+	</div>
+	<div id="stats">
 	</div>
 	<div id="villain">
 		<h3 class="heading">ENEMY BAND</h3>
@@ -48,16 +64,10 @@
 	<div id="stage">
 		<h3 class="heading">CHOOSE A BAND TO BATTLE AGAINST</h3>
 		<div class=enemyContainer id="enemyContainerA">
-			<!-- <h6 class="bandName" id="bandEnemyA"></h6>
-			<img class="band" id="enemyA"> -->
 		</div>
 		<div class=enemyContainer id="enemyContainerB">
-			<!-- <h6 class="bandName" id="bandEnemyB"></h6>
-			<img class="band" id="enemyB"> -->
 		</div>
 		<div class=enemyContainer id="enemyContainerC">
-			<!-- <h6 class="bandName" id="bandEnemyC"></h6>
-			<img class="band" id="enemyC"> -->
 		</div>
 	</div>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
